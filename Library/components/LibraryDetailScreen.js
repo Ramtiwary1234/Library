@@ -1,7 +1,7 @@
 import React,{useState} from 'react'
 import { View,Text,Image,StyleSheet, Button } from 'react-native'
 
-function LibraryDetailScreen({route}) {
+function LibraryBookscreen({route}) {
 
     const [isfavorite,setisfavorite] = useState(false)
     const LocalLibrary = route.params.Library
